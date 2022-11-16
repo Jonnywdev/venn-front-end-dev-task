@@ -89,6 +89,19 @@ form {
     background: #03363D;
 }
 
+.start-search {
+    display: flex;
+    flex-direction: row;
+    color: #fc7753;
+}
+
+.start-search h6 {
+    font-size: 12px;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+}
 
 /* hero page */
 
