@@ -17,6 +17,10 @@ ul {
     list-style: none;
 }
 
+a {
+    color: #293135;
+}
+
 a:hover {
     text-decoration: none;
     color: #fc7753;
@@ -71,6 +75,10 @@ body {
 
 form {
     width: 100%;
+}
+
+hr {
+    border-top: 1px solid #293135;
 }
 
 
@@ -290,3 +298,7 @@ form {
     font-size: 13px;
 }
 
+/* Top Talent */
+.talent-text-container {
+    padding: 5rem 6rem;
+}
