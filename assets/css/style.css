@@ -29,7 +29,6 @@ a:hover {
 body {
     font-family: 'Montserrat', sans-serif;
     color: #293235;
-    overflow-x: hidden;
 }
 
 .m-header {
@@ -82,7 +81,9 @@ hr {
     border-top: 1px solid #293135;
 }
 
-
+.max-100 {
+    max-width: 100%;
+}
 
 /* header */
 .main-nav {
@@ -301,6 +302,10 @@ hr {
 }
 
 /* Top Talent */
+.tt-main-row {
+    max-width: 100%;
+}
+
 .talent-text-container {
     padding: 5rem 6rem;
 }
@@ -308,26 +313,43 @@ hr {
 /* Best Companies */
 
 .best-companies {
-    padding: 5rem 0 5rem 5rem;
+    padding: 5rem 0;
 }
 
 .best-comp-left {
-    max-width: 91%;
+    max-width: 80%;
 }
 
-.best-img {
-    padding-left: 3rem;
+.b-img-left {
     position: relative;
+}
 
+.b-img-left img {
+    position: absolute;
+    right: 0;
+}
+
+
+.best-img {
+    padding-left: 0;
+    position: relative;
+    right: -15px;
 }
 
 .best-img img {
-    width: 100%;
+    width: 95%;
     position: relative;
 }
 
 .best-text-container {
-    padding: 5rem 8rem 5rem 6rem;
+    padding: 5rem 8rem 0 7rem;
+}
+
+.best-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
 }
 
 .play-btn {
@@ -348,4 +370,13 @@ hr {
     font-size: 25px;
     color: #fff;
     padding-left: 5px;
+}
+
+/* Latest Roles */
+.latest-page-padding {
+    max-width: 100%;
+}
+
+.lr-sub {
+    
 }
