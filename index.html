@@ -29,9 +29,16 @@
                                 <a href="#">
                                     <i class="fa-solid fa-file-arrow-up"></i>
                                 </a>    
-                                <a href="#">
-                                    <i class="fa-solid fa-phone-flip"></i>
-                                </a>
+                                <div class="dropdown dropdown-menu-wrapped">
+                                    <button class="border-0 transparent" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-phone-flip"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </div>
                                 <button class="hamburger orange-bg">
                                     <i class="fa-solid fa-bars white-txt"></i>
                                 </button>
@@ -614,70 +621,92 @@
         <!-- Footer -->
         <footer class="container-fluid px-0">
             <!-- cards -->
-            <div class="footer-cards-wrapped row">
+            <div class="footer-cards-wrapped row m-0">
                 <!-- contact us and connect -->
                 <div class="col">
                     <div class="footer-content-wrapped">
-                        <h4 class="lr-sub">Contact Us</h4>
+                        <h4 class="lr-sub mb-4">Contact Us</h4>
                         <div class="card-list">
                             <hr>
-                            <a href="#" class="white-bg">Main Office: 0161 989 5670</a>
+                            <a href="#" class="white-bg text-capitalize">Main Office: 0161 989 5670</a>
                             <hr>
-                            <a href="#" class="white-bg">Property Team: 0161 989 5670</a>
+                            <a href="#" class="white-bg text-capitalize">Property Team: 0161 989 5670</a>
                             <hr>
-                            <a href="#" class="white-bg">Finance Team: 0161 989 5670</a>
+                            <a href="#" class="white-bg text-capitalize">Finance Team: 0161 989 5670</a>
                             <hr>
-                            <a href="#" class="white-bg">Email: hello@integro.partners</a>
+                            <a href="#" class="white-bg text-capitalize">Email: hello@integro.partners</a>
                             <hr>
                         </div>
                     </div>
                     <div class="footer-content-wrapped">
-                        <h4 class="lr-sub"></h4>
+                        <h4 class="lr-sub mt-3">Connect with Us</h4>
+                        <div class="mt-4">
+                            <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-twitter pl-3"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-instagram pl-3"></i></a>
+                            <a href="#" target="_blank"><i class="fa-brands fa-facebook-f pl-3"></i></a>
+                        </div>
                     </div>
                 </div>
                 <!-- quick links -->
                 <div class="col">
                     <div class="footer-content-wrapped">
-                        <h4 class="lr-sub"></h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                        </ul>
+                        <h4 class="lr-sub mb-4">Quick Links</h4>
+                        <div class="card-list">
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">home</a>
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">about us</a>
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">clients</a>
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">candidates</a>
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">media hub</a>
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">job search</a>
+                            <hr>
+                        </div>
                     </div>
                 </div>
                 <!-- Industries -->
                 <div class="col">
                     <div class="footer-content-wrapped">
-                        <h4 class="lr-sub"></h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"></li>
-                            <li class="list-group-item"></li>
-                        </ul>
+                        <h4 class="lr-sub mb-4">Industries</h4>
+                        <div class="card-list">
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">Property</a>
+                            <hr>
+                            <a href="#" class="white-bg text-capitalize">Financial services</a>
+                            <hr>
+                        </div>
                     </div>
                 </div>
                 <!-- Newsletter -->
                 <div class="col">
                     <div class="footer-content-wrapped">
-                        <h4 class="lr-sub"></h4>
-                        
+                        <h4 class="lr-sub mb-4">Email Newsletter</h4>
+                        <p>Keep up to date with opportunities and industry insights</p>
+                        <form action="">
+                            <input type="search" name="newsletter-search" id="newsletter" placeholder="Email Address" class="newsletter-input">
+                            <button class="send-newsletter">
+                                <i class="fa-solid fa-envelope white-txt"></i>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
             <!-- bottom -->
             <hr>
-            <div class="copyright-wrapped pb-2 mx-0">
-                <div class="row">
-                    <div class="text-left">
+            <div class="copyright-wrapped pb-2 container-fluid">
+                <div class="flex">
+                    <div class="col">
                         <p>Copyright Integro Partners</p>
                     </div>
-                    <div class="text-center mx-auto inline">
+                    <div class="col-6 inline">
                         <a href="#" class="pr-2"><p>Privacy Policy</p></a><a href="#" class="pr-2"><p>Slavery & Human Trafficking Statement</p></a> <a href="#"><p>Terms & Conditions</p></a>
                     </div>
-                    <div class="text-right">
+                    <div class="col text-right">
                         <a href="https://www.venndigital.co.uk/" target="_blank"><p>Site by Venn</p></a>
                     </div>
                 </div>
