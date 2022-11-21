@@ -13,6 +13,18 @@
     justify-content: space-between;
 }
 
+.j-center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: end;
+}
+
+.start {
+    justify-content: start;
+}
+
 ul {
     list-style: none;
 }
@@ -79,6 +91,10 @@ form {
 
 hr {
     border-top: 1px solid #293135;
+}
+
+.orange-hr {
+    border-top: 1px solid #fc7753;
 }
 
 .max-100 {
@@ -395,9 +411,66 @@ hr {
 .latest-roles-wage {
     font-weight: 600;
     color: #17494D;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .latest-roles-text {
-    
+    font-weight: 300;
+    color: #17494D;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.lr-card {
+    transition: all .25s;
+    border-radius: 0%;
+    cursor: pointer;
+    border: 1px solid #f7f4ef;
+}
+
+.lr-card:hover {
+    border: 1px solid #fc7753;
+}
+
+.lr-hidden {
+    color: #f7f4ef;
+    cursor: pointer;
+}
+
+.latest-roles-controls {
+    max-width: 100%;
+}
+
+.latest-roles-controls a i {
+    color: #293135;
+    transition: all .5s;
+}
+
+.latest-roles-controls a i:hover {
+    color: #fc7753;
+}
+
+.col-sm-3 {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+/* Reviews */
+.card img {
+    width: 50%;
+}
+
+.review-card-body {
+    padding: 0;
+    text-align: left;
+}
+
+.review-card-body h5 {
+    font-size: 18px;
+}
+
+/* Latest Insights */
+
+.latest-insights {
+    background: #f7f4ef;
 }
