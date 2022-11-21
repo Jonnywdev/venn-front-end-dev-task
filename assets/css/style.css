@@ -474,3 +474,97 @@ hr {
 .latest-insights {
     background: #f7f4ef;
 }
+
+.self-employed-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.3333%;
+    position: relative;
+}
+
+.self-employed-card img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.insight-card {
+    padding-top: 3rem;
+}
+
+.insight-card-wrapped {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    width: 90%;
+    height: 100%;
+}
+
+.insight-card-wrapped small {
+    font-size: 10px;
+}
+
+.insight-card-wrapped h5 {
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 5px 0;
+}
+
+.insight-card-wrapped p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.insight-card-btn {
+    position: absolute;
+    bottom: 30px;
+}
+
+.insight-card-txt {
+    position: absolute;
+    top: 40px;
+}
+
+.insight-btn-txt {
+    font-size: 12px !important;
+    color: #fff;
+}
+/* Contact Us */
+
+.contact-us-wrapped {
+    margin: 7rem 0;
+
+}
+
+.conversation-text {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 3.75rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.lets-talk {
+    width: 55%;
+    font-weight: 400
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: #fff;
+}
+
+.footer-cards-wrapped {
+    padding: 3rem 10rem;
+}
+
+.copyright-wrapped {
+    padding: 0 10rem;
+}
+
+.copyright-wrapped p {
+    font-size: 10px;
+}
+
+.inline {
+    display: inline-flex;
+}
