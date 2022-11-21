@@ -101,6 +101,8 @@ hr {
     max-width: 100%;
 }
 
+
+
 /* header */
 .main-nav {
     width: 100%;
@@ -304,11 +306,14 @@ hr {
     font-size: 11px;
     display: block;
     padding: 10px 0;
-    background: #f7f4ef;
     transition: all .5s;
 }
 
-.card-list a:hover {
+.off-white-bg {
+    background: #f7f4ef;
+}
+
+.off-white-bg:hover {
     color: #fc7753 !important;
     background-color: #e6e7e1;
 }
@@ -456,7 +461,7 @@ hr {
 }
 
 /* Reviews */
-.card img {
+.review-card-img {
     width: 50%;
 }
 
@@ -567,4 +572,23 @@ footer {
 
 .inline {
     display: inline-flex;
+}
+
+.list-group-item {
+    padding: 0.5rem 0;
+    font-size: 12px;
+    border: 1px solid #293135;
+}
+
+.list-group-item a {
+    width: 100%;
+}
+
+.white-bg {
+    background: #fff;
+    transition: all .5s ease-in;
+}
+
+.white-bg:hover {
+    color: #fc7753 !important;
 }
