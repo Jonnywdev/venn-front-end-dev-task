@@ -28,16 +28,16 @@
                                 </a>
                                 <a href="#">
                                     <i class="fa-solid fa-file-arrow-up"></i>
-                                </a>    
-                                <div class="top-dropdown-links">
-                                    <a class="phone-button" id="dropdownActivator"><i class="fa-solid fa-phone-flip"></i></a>
-                                    <div id="phoneDropdown" class="dropdown-box">
+                                </a>
+                                <div class="dropdown-wrapped">
+                                    <button id="dropdownActivator" class="dropbtn"><i class="fa-solid fa-phone-flip"></i></button>
+                                    <div id="phoneDropdown" class="dropdown-content">
                                         <a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Main Office</b><br>0123 456 789</p></a>
                                         <a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Property Team</b><br>0122 333 456</p></a>
                                         <a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Finance Team</b><br>0133 123 456</p></a>
                                     </div>
                                 </div>
-                                <button class="hamburger orange-bg">
+                                <button class="hamburger orange-bg circle-hover">
                                     <i class="fa-solid fa-bars white-txt"></i>
                                 </button>
                             </div>
@@ -47,6 +47,12 @@
             </div>
         </div>
     </header>
+
+   <!-- back to top btn -->
+   <button onclick="backToTop()" id="toTop" class="to-top-btn circle-hover"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+
     <section class="page-content">
         <!-- Hero Page -->
         <div class="container-fluid">
@@ -72,7 +78,7 @@
                             <div class="search-wrapped row mt-4">
                                 <form action="">
                                     <input type="search" name="search" id="serach" placeholder="Search for your new role" class="search-box">
-                                    <button class="search orange-bg">
+                                    <button class="search orange-bg circle-hover">
                                         <i class="fa-solid fa-magnifying-glass white-txt"></i>
                                     </button>
                                 </form>
@@ -93,14 +99,14 @@
                         <h3 class="text-white m-header">Transparent Recruitment</h3>
                         <hr class="white-hr">
                         <h5 class="text-white sub-header">
-                            Using the latest recruitment technology and talent 
-                            attraction methods, we build long-lasting relationships 
-                            with our clients and candidates to deliver a fully 
-                            bespoke recruitment service. <br> Come and see why so 
+                            Using the latest recruitment technology and talent
+                            attraction methods, we build long-lasting relationships
+                            with our clients and candidates to deliver a fully
+                            bespoke recruitment service. <br> Come and see why so
                             many companies and candidates Trust Integro Partners.
                         </h5>
-                        <div class="row small-btn pl-3 pt-2r align-c">
-                            <a href="#" class="text-white">
+                        <div class="row small-btn pl-3 pt-2r align-c t-rec-link">
+                            <a href="#" class="">
                                 <p class="mb-0">About us</p>
                             </a>
                             <div class="circle-outline">
@@ -127,10 +133,10 @@
                         <img class="card-img-top" src="assets/images/financial-services.png" alt="">
                         <div class="card-body">
                             <h5 class="card-title m-header">Financial Services</h5>
-                            <p class="card-text">Paragragh Lorem ipsum dolor sit amet, 
-                                consectetur adipiscing elit. Aliquam gravida odio at 
-                                semper semper. In sagittis felis non pharetra dapibus. 
-                                Maecenas in laoreet justo, at maximus nibh. 
+                            <p class="card-text">Paragragh Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Aliquam gravida odio at
+                                semper semper. In sagittis felis non pharetra dapibus.
+                                Maecenas in laoreet justo, at maximus nibh.
                             </p>
                             <div class="row m-0 cards-link align-c pb-3">
                                 <a href="#" class="text-orange">
@@ -189,15 +195,15 @@
                             <hr class="border-0">
                         </div>
                     </div>
-                    
+
                     <div class="card ml-2">
                         <img class="card-img-top" src="assets/images/property.png" alt="">
                         <div class="card-body">
                             <h5 class="card-title m-header">Property</h5>
-                            <p class="card-text">Paragragh Lorem ipsum dolor sit amet, 
-                                consectetur adipiscing elit. Aliquam gravida odio at 
-                                semper semper. In sagittis felis non pharetra dapibus. 
-                                Maecenas in laoreet justo, at maximus nibh. 
+                            <p class="card-text">Paragragh Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Aliquam gravida odio at
+                                semper semper. In sagittis felis non pharetra dapibus.
+                                Maecenas in laoreet justo, at maximus nibh.
                             </p>
                             <div class="row m-0 cards-link align-c pb-3">
                                 <a href="#" class="text-orange">
@@ -207,7 +213,7 @@
                                     <i class="fa-solid fa-phone-flip"></i>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="card-list">
                             <hr class="mt-0">
@@ -284,10 +290,10 @@
                         <h3 class=" m-header">Placing top talent in the best roles</h3>
                         <hr class="hr">
                         <h5 class="sub-header">
-                            Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit, sed do 
-                            eiusmod tempor incididunt ut 
-                            labore et dolore magna 
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna
                             aliqua. <br> Ut enim ad minim veniam
                         </h5>
                         <div class="row small-btn pl-3 pt-2r align-c">
@@ -311,7 +317,7 @@
                 <div class="col-7 p-0 best-right">
                     <div class="best-img">
                         <img src="assets/images/best-companies-vid.png" alt="">
-                        <div class="play-btn">
+                        <div class="play-btn circle-hover">
                             <i class="fa-sharp fa-solid fa-play"></i>
                         </div>
                     </div>
@@ -319,11 +325,11 @@
                         <h3 class=" m-header">Working with the best companies</h3>
                         <hr class="hr">
                         <h5 class="sub-header">
-                            No nonsense, no silly Recruitment Sales tactics, 
-                            just a Trusted Partner you can rely on. 
-                            We pride ourselves  on acting as a Brand 
-                            Ambassador, representing you and your business 
-                            to attract the best talent and get an edge on 
+                            No nonsense, no silly Recruitment Sales tactics,
+                            just a Trusted Partner you can rely on.
+                            We pride ourselves  on acting as a Brand
+                            Ambassador, representing you and your business
+                            to attract the best talent and get an edge on
                             your competition.
                         </h5>
                         <div class="row small-btn pl-3 pt-2r align-c">
@@ -366,9 +372,9 @@
                         <p class="card-text latest-roles-wage">Negotiable</p>
                         <p class="card-text latest-roles-wage lr-hidden">hidden</p>
                         <p class="card-text latest-roles-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Aliquam gravida odio at semper semper. 
-                            In sagittis felis non 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam gravida odio at semper semper.
+                            In sagittis felis non
                         </p>
                         <div class="row small-btn pl-3 pt-2r align-c mt-0">
                             <a href="#" class="">
@@ -387,9 +393,9 @@
                         <p class="card-text latest-roles-wage">£31,000 + uncapped commission</p>
                         <p class="card-text latest-roles-wage">Self-Employed</p>
                         <p class="card-text latest-roles-text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                            Aliquam gravida odio at semper semper. 
-                            In sagittis felis non 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aliquam gravida odio at semper semper.
+                            In sagittis felis non
                         </p>
                         <div class="row small-btn pl-3 pt-2r align-c mt-0">
                             <a href="#" class="">
@@ -408,9 +414,9 @@
                             <p class="card-text latest-roles-wage">£42,000 OTE</p>
                             <p class="card-text latest-roles-wage lr-hidden">hidden</p>
                             <p class="card-text latest-roles-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Aliquam gravida odio at semper semper. 
-                                In sagittis felis non 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aliquam gravida odio at semper semper.
+                                In sagittis felis non
                             </p>
                             <div class="row small-btn pl-3 pt-2r align-c mt-0">
                                 <a href="#" class="">
@@ -429,9 +435,9 @@
                             <p class="card-text latest-roles-wage">£31,000 - £43,000</p>
                             <p class="card-text latest-roles-wage">Employed</p>
                             <p class="card-text latest-roles-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Aliquam gravida odio at semper semper. 
-                                In sagittis felis non 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Aliquam gravida odio at semper semper.
+                                In sagittis felis non
                             </p>
                             <div class="row small-btn pl-3 pt-2r align-c mt-0">
                                 <a href="#" class="">
@@ -457,7 +463,7 @@
         <!-- Reviews -->
         <div class="container-fluid page-padding">
             <h2 class="m-header pb-3">
-                We're nothing like the Recruitment Agencies 
+                We're nothing like the Recruitment Agencies
                 out there. But don't just take our word for it…
             </h2>
             <div class="card-deck pt-5">
@@ -466,9 +472,9 @@
                     <div class="review-card-body mt-3">
                         <h5 class="text-orange sub-header">Property Sector</h5>
                         <hr class="orange-hr">
-                        <p class="card-text">“Blockquote Lorem ipsum dolor sit amet, 
-                            consetetur sadipscing elitr, sed diam nonumy eirmod 
-                            tempor invidunt ut labore et dolore magna aliquyam erat, 
+                        <p class="card-text">“Blockquote Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat,
                             sed diam voluptua”
                         </p>
                         <p class="mb-0"><b>Mike Young</b></p>
@@ -480,9 +486,9 @@
                     <div class="review-card-body mt-3">
                         <h5 class="text-orange sub-header">Property Sector</h5>
                         <hr class="orange-hr">
-                        <p class="card-text">“Blockquote Lorem ipsum dolor sit amet, 
-                            consetetur sadipscing elitr, sed diam nonumy eirmod 
-                            tempor invidunt ut labore et dolore magna aliquyam erat, 
+                        <p class="card-text">“Blockquote Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat,
                             sed diam voluptua”
                         </p>
                         <p class="mb-0"><b>Mike Young</b></p>
@@ -494,9 +500,9 @@
                     <div class="review-card-body mt-3">
                         <h5 class="text-orange sub-header">Finance Sector</h5>
                         <hr class="orange-hr">
-                        <p class="card-text">“Blockquote Lorem ipsum dolor sit amet, 
-                            consetetur sadipscing elitr, sed diam nonumy eirmod 
-                            tempor invidunt ut labore et dolore magna aliquyam erat, 
+                        <p class="card-text">“Blockquote Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat,
                             sed diam voluptua”
                         </p>
                         <p class="mb-0"><b>Mike Young</b></p>
@@ -525,14 +531,14 @@
                     </div>
                     <div class="card-deck insight-card">
                         <div class="self-employed-card">
-                            <img src="assets/images/insight-one.png" alt="">  
+                            <img src="assets/images/insight-one.png" alt="">
                             <div class="insight-card-wrapped text-left">
                                 <div class="col insight-card-txt">
                                     <small class="text-orange">20th June</small>
                                     <h5 class="m-header">Want to become a self-employed Mortgage Broker?</h5>
                                     <p>
-                                        Paragragh Lorem ipsum dolor sit amet, 
-                                        consectetur adipiscing elit. 
+                                        Paragragh Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
                                         Aliquam gravida odio at semper semper…
                                     </p>
                                 </div>
@@ -549,14 +555,14 @@
                             </div>
                         </div>
                         <div class="self-employed-card">
-                            <img src="assets/images/insight-two.png" alt="">  
+                            <img src="assets/images/insight-two.png" alt="">
                             <div class="insight-card-wrapped py-5 text-left">
                                 <div class="col insight-card-txt">
                                     <small class="text-orange">20th June</small>
                                     <h5 class="m-header">Counter Offers - Should I Stay, or Should I Go?!</h5>
                                     <p>
-                                        Paragragh Lorem ipsum dolor sit amet, 
-                                        consectetur adipiscing elit. 
+                                        Paragragh Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
                                         Aliquam gravida odio at semper semper…
                                     </p>
                                 </div>
@@ -573,14 +579,14 @@
                             </div>
                         </div>
                         <div class="self-employed-card">
-                            <img src="assets/images/insight-three.png" alt=""> 
+                            <img src="assets/images/insight-three.png" alt="">
                             <div class="insight-card-wrapped text-left">
                                 <div class="col insight-card-txt">
                                     <small class="text-orange">20th June</small>
                                     <h5 class="m-header">Have you ever been Jobfished?</h5>
                                     <p>
-                                        Paragragh Lorem ipsum dolor sit amet, 
-                                        consectetur adipiscing elit. 
+                                        Paragragh Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.
                                         Aliquam gravida odio at semper semper…
                                     </p>
                                 </div>
