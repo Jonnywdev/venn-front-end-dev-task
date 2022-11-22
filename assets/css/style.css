@@ -528,6 +528,14 @@ hr {
     font-family: 'Oxygen', sans-serif;
 }
 
+.card-content {
+    padding: 10px 20px;
+}
+
+.slide-container {
+    margin: 0 10rem;
+}
+
 .latest-roles-title {
     margin-bottom: 0;
     font-family: 'Oxygen', sans-serif;
@@ -553,6 +561,7 @@ hr {
     border-radius: 0%;
     cursor: pointer;
     border: 1px solid #f7f4ef;
+    background: #f7f4ef;
 }
 
 .lr-card:hover {
@@ -566,6 +575,9 @@ hr {
 
 .latest-roles-controls {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 .latest-roles-controls a i {
@@ -594,6 +606,14 @@ hr {
 
 .review-card-body h5 {
     font-size: 18px;
+}
+
+.review-name {
+    font-size: 16px;
+}
+
+.review-role {
+    font-size: 17px;
 }
 
 /* Latest Insights */
@@ -785,7 +805,7 @@ footer {
     /* best companies */
     .play-btn {
         bottom: 8rem;
-        left: 17rem;3
+        left: 17rem;
     }
 
     .best-header {
@@ -993,6 +1013,10 @@ footer {
         font-size: 8px;
     }
 
+    /* talent */
+    .slide-container {
+        margin: 0 4rem;
+    }
     /* reviews */
 
     .page-padding {
@@ -1142,6 +1166,8 @@ footer {
         font-size: 20px;
     }
 
+   
+
     /* best companies */
 
     .best-companies {
@@ -1164,9 +1190,40 @@ footer {
 
     /* latest roles */
 
+    .lr-sub {
+        font-size: 12px;
+        width: 50%;
+    }
+
     .latest-page-padding {
         padding: 0px 3rem;
     }
+
+    .slide-container {
+        margin: 0 3rem;
+    }
+
+    /* reviews */
+
+    .review-card-body h5 {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 9px;
+    }
+
+    .review-name {
+        font-size: 12px;
+    }
+
+    .review-role {
+        font-size: 11px;
+    }
+    
+
+
+
 
 
 
