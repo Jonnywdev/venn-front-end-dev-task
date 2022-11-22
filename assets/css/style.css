@@ -773,6 +773,13 @@ footer {
     padding-left: 1rem;
 }
 
+.web {
+    display: flex;
+}
+
+.mobile {
+    display: none;
+}
 /* media queries */
 
 @media (max-width: 1199.98px) {
@@ -1221,17 +1228,411 @@ footer {
         font-size: 11px;
     }
     
+    /* latest insights */
 
+    .insight-card-txt {
+        top: 5px;
+    }
 
+    .insight-card-wrapped h5 {
+        font-size: 12px;
+        line-height: 1rem;
+        padding: 0;
+        margin-bottom: 1px;
+    }
 
+    .insight-card-wrapped p {
+        font-size: 9px;
+    }
 
+    .insight-btn-txt {
+        font-size: 9px !important;
+    }
 
+    .circle-outline {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .insight-card-btn {
+        bottom: 7px;
+    }
+
+    /* contact us */
+
+    .contact-us-wrapped {
+        margin-top: 5rem;
+        margin-bottom: 1rem !important;
+    }
+    
+    .conversation-text {
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .lets-talk {
+        width: 65%;
+    }
+    /* footer */
+    .footer-cards-wrapped .col {
+        padding-left: 0 !important;
+    }
+
+    .newsletter {
+        padding-right: 0 !important;
+    }
+
+    .footer-content-wrapped h4 {
+        width: 100% !important;
+        font-size: 10px;
+    }
+
+    .footer-content-wrapped .card-list a {
+        font-size: 7px;
+        padding: 5px 0;
+    }
+
+    .footer-content-wrapped p {
+        font-size: 7px;
+    }
+
+    .footer-content-wrapped .mt-4 {
+        margin-top: 0 !important;
+    }
+
+    .footer-social-icons i {
+        padding-left: 6px;
+    }
+
+    .copyright-wrapped p {
+        font-size: 5px;
+    }
 
 }
 
 @media (max-width: 575.98px) {
+    /* header */
 
+    .header-top img {
+        max-width: 55px;
+    }
+
+    .main-nav .nav-elements a {
+        margin: 0 9px;
+        font-size: 12px;
+    }
+
+    .dropbtn {
+        margin: 0 7px;
+        font-size: 12px;
+    }
+
+    .hamburger i {
+        padding: 7px 4px;
+        font-size: 14px;
+    }
+
+    .circle-hover::after {
+        right: 15px;
+        width: 32px;
+        height: 30px;
+    }
+
+    .start-search h6 {
+        font-size: 7px;
+        margin: 0 9px;
+    }
+
+    /* hero */
+
+    .hero-image {
+        padding: 0 !important;
+    }
+
+    .search-wrapped {
+        display: none;
+    }
+
+    .hero-header {
+        padding-bottom: 15px !important;
+        font-size: 30px;
+        margin-bottom: 0 !important;
+        line-height: 25px;
+    }
+
+    .orange-line {
+        top: 7.5rem;
+        border-bottom: 2px solid #fc7753;
+    }
+
+    /* transparent recruitment */
+
+    .trans-rec {
+        flex-direction: column-reverse;
+    }
+
+    .trans-rec .col-5 {
+        display: none;
+    }
+
+    .trans-rec .col-7 {
+        max-width: 100%;
+        padding: 0 !important;
+    }
+
+    .tr-text-container {
+        padding: 2rem;
+    }
+
+    .experts h3 {
+        font-size: 26px;
+        padding-left: 15px;
+    }
+
+    .experts .card {
+        max-width: 100%;
+    }
+
+    .experts .right {
+        margin-bottom: 2rem;
+    }
+
+    /* top talent */
+
+    .t-talent .col-7 {
+        max-width: 100%;
+        padding: 0 !important;
+    }
+
+    .t-talent .col-5 {
+        display: none;
+    }
+
+    .t-talent {
+        padding: 0 !important;
+    }
+
+    .t-talent .tt-main-row {
+        display: flex;
+        flex-direction: column;
+        margin: 0 !important;
+    }
+
+    .talent-text-container {
+        padding: 2rem;
+    }
+
+    /* best companies */
+
+    .best-img {
+        right: 32px;
+    }
+
+    .play-btn {
+        width: 40px;
+        height: 40px;
+        bottom: 4.5rem;
+        left: 13.5rem;
+    }
+
+    .play-btn i {
+        font-size: 18px;
+        padding-left: 3px;
+    }
+
+    .circle-hover::after {
+        right: 0px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .best-text-container {
+        padding: 2rem;
+    }
+
+    .best-header {
+        font-size: 20px;
+    }
+
+    /* latest roles */
+
+    .latest-page-padding {
+        padding: 0px 2rem;
+    }
+
+    .lr-sub {
+        font-size: 10px;
+        width: 60%;
+    }
+
+    .latest-page-padding .small-btn p {
+        font-size: 7px;
+    }
+
+    .slide-container {
+        margin: 0 2rem;
+    }
+
+    /* reviews */
+
+    .reviews-header {
+        font-size: 20px;
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .review-card-img {
+        width: 35%;
+    }
+    
+    .review-card-body h5 {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .review-name {
+        font-size: 15px;
+    }
+
+    .review-role {
+        font-size: 13px;
+    }
+    
+    /* latest insights */
+
+    .latest-insights {
+        padding: 0 !important;
+    }
+
+    .page-padding {
+        padding: 3rem 2rem;
+    }
+
+    .latest-insights h3 {
+        font-size: 22px;
+    }
+
+    .self-employed-card {
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    .insight-card-wrapped {
+        width: 100%;
+    }
+
+    .insight-card-txt {
+        top: 30px;
+    }
+
+    .insight-card-btn {
+        bottom: 35px;
+    }
+
+    .insight-card-wrapped small {
+        font-size: 15px;
+    }
+
+    .insight-card-wrapped h5 {
+        font-size: 30px;
+        line-height: 2.5rem;
+        padding: 0;
+        margin: 2rem 0;
+    }
+
+    .insight-card-wrapped p {
+        font-size: 22px;
+    }
+
+    .insight-btn-txt {
+        font-size: 15px !important;
+    }
+
+    .circle-outline {
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .conversation-text {
+        font-size: 23px;
+    }
+
+    .contact-us-wrapped .pt-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lets-talk {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2rem;
+    }
+
+    .contact-us-wrapped .small-btn {
+        padding: 0 !important;
+    }
+
+    /* footer */
+
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-cards-wrapped {
+        padding: 3rem 3rem 5rem 3rem;
+    }
+
+    .q-links {
+        padding: 0 !important;
+    }
+
+    .industries {
+        padding: 1rem 0;
+    }
+
+    .footer-content-wrapped h4 {
+        font-size: 15px;
+    }    
+
+    .footer-content-wrapped p {
+        font-size: 8px;
+        padding-bottom: 5px;
+    }
+    
+    .newsletter-input {
+        padding: 3px 9px 2px 9px;
+    }    
+
+    .send-newsletter {
+        padding: 3px 6px 3px 6px;
+    }
+
+    .footer-content-wrapped .card-list a {
+        font-size: 8.5px;
+    }
+
+    .copyright-wrapped {
+        padding: 0 1rem;
+    }
+
+    .copyright-wrapped p {
+        font-size: 3.5px;
+    }
+    
 }
+
+
 
 
 
