@@ -156,25 +156,19 @@ hr {
     border: none;
     list-style: none;
     list-style-type: none;
+    cursor: pointer;
 }
   
-  .top-dropdown-links > button::-webkit-details-marker {
-    display: none;
+  
+  .top-dropdown-links button:focus {
+    outline: none;
   }
   
   .top-dropdown-links button:focus {
     outline: none;
   }
   
-  .top-dropdown-links button:focus a.phone-button {
-    border: 2px solid white;
-  }
-  
-  .top-dropdown-links button:focus {
-    outline: none;
-  }
-  
-  .top-dropdown-links ul {
+  .top-dropdown-links .dropdown-box {
     position: absolute;
     margin: 20px 0 0 0;
     padding: 20px 0;
@@ -186,14 +180,19 @@ hr {
     background: #fff;
     border-radius: 6px;
     list-style: none;
+    display: none;
+  }
+
+  .show {
+    display: block;
   }
   
-  .top-dropdown-links ul li {
+  /* .top-dropdown-links .dropdown-box {
     padding: 0;
     margin: 0;
-  }
+  } */
   
-  .top-dropdown-links ul li a:link, .top-dropdown-links ul li a:visited {
+  .top-dropdown-links .dropdown-box a:link, .top-dropdown-links .dropdown-box a:visited {
     display: inline-block;
     padding: 10px 0.8rem;
     width: 100%;
@@ -203,22 +202,22 @@ hr {
     text-decoration: none;
   }
 
-  .top-dropdown-links ul li a p {
+  .top-dropdown-links .dropdown-box a p {
     font-weight: 400;
     font-size: 12px;
   }
 
-  .top-dropdown-links ul li a p b {
+  .top-dropdown-links .dropdown-box a p b {
     font-weight: 600;
     font-size: 15px;
   }
   
-  .top-dropdown-links ul li a:hover {
+  .top-dropdown-links .dropdown-box a:hover {
     background-color: #e6e7e1;
   }
   
   /* Dropdown triangle */
-  .top-dropdown-links ul::before {
+  .top-dropdown-links .dropdown-box::before {
     content: ' ';
     position: absolute;
     width: 0;
@@ -230,14 +229,16 @@ hr {
     border-width: 0 10px 10px 10px;
     border-color: transparent transparent #fff transparent;
   }
+
+
   
   
   /* Close the dropdown with outside clicks */
-  .dropdown > button::before {
+  .top-dropdown-links > .phone-btn::before {
     display: none;
   }
   
-  .dropdown[open] > button::before {
+  .top-dropdown-links[open] > .phone-btn::before {
       content: ' ';
       display: block;
       position: fixed;

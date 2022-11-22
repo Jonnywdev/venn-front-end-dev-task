@@ -30,14 +30,12 @@
                                     <i class="fa-solid fa-file-arrow-up"></i>
                                 </a>    
                                 <div class="top-dropdown-links">
-                                    <button role="button">
-                                      <a class="phone-button"><i class="fa-solid fa-phone-flip"></i></a>
-                                    </button>
-                                    <ul>
-                                      <li><a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Main Office</b><br>0123 456 789</p></a></li>
-                                      <li><a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Property Team</b><br>0122 333 456</p></a></li>
-                                      <li><a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Finance Team</b><br>0133 123 456</p></a></li>
-                                  </ul>
+                                    <a class="phone-button" id="dropdownActivator"><i class="fa-solid fa-phone-flip"></i></a>
+                                    <div id="phoneDropdown" class="dropdown-box">
+                                        <a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Main Office</b><br>0123 456 789</p></a>
+                                        <a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Property Team</b><br>0122 333 456</p></a>
+                                        <a href="#" class="m-0"><p class="mb-0"><b class="text-orange">Finance Team</b><br>0133 123 456</p></a>
+                                    </div>
                                 </div>
                                 <button class="hamburger orange-bg">
                                     <i class="fa-solid fa-bars white-txt"></i>
@@ -714,6 +712,8 @@
         </footer>
     </section>
 
+    <!-- javascript for dropdown -->
+    <script src="assets/js/script.js"></script>
 
     <!-- javascript for bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
