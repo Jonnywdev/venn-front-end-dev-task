@@ -748,3 +748,438 @@ footer {
 .send-newsletter:hover {
     background: #fc7753;
 }
+
+.footer-social-icons i {
+    padding-left: 1rem;
+}
+
+/* media queries */
+
+@media (max-width: 1199.98px) {
+    /* hero quiz */
+    .hero-image img {
+        max-width: 80%;
+    }
+
+    .orange-line {
+        top: 8rem;
+    }
+    /* Transparent Rec */
+    .tr-text-container {
+        padding: 2rem 7rem;
+    }
+
+    .tr-text-container h3 {
+        font-size: 22px;
+    }
+
+    .sub-header {
+        font-size: 17px;
+    }    
+
+    /* talent */
+    .talent-text-container {
+        padding: 3rem 6rem;
+    }
+
+    /* best companies */
+    .play-btn {
+        bottom: 8rem;
+        left: 17rem;3
+    }
+
+    .best-header {
+        font-size: 22px;
+    }
+
+    .small-btn p {
+        font-size: 12px;
+    }
+
+    /* latest roles */
+    .lr-sub {
+        font-size: 13px;
+    }
+
+    .latest-roles-wage {
+        font-size: 9px;
+    }
+
+    .latest-page-padding {
+        margin-bottom: 3rem;
+    }
+
+    /* reviews */
+    .reviews-header {
+        font-size: 25px;
+    }
+
+    /* latest insights */
+    .insight-card-txt {
+        top: 15px;
+    }
+
+    .insight-card-wrapped h5 {
+        font-size: 15px;
+        line-height: 1.2rem;
+    }
+
+    .insight-card-wrapped p {
+        font-size: 12px;
+    }
+
+    .insight-card-btn {
+        bottom: 12px;
+    }
+
+    /* contact us */
+
+    .conversation-text {
+        font-size: 2.75rem;
+        margin-bottom: 3rem;
+    }
+
+    .lets-talk {
+        font-size: 13px;
+    }
+
+    .contact-us-wrapped {
+        margin-bottom: 5rem !important;
+    }
+
+    /* footer */
+    .card-list a {
+        font-size: 9px;
+    }
+
+    .footer-content-wrapped a i {
+        font-size: 16px;
+    }
+
+    .footer-content-wrapped p {
+        font-size: 9px;
+        margin-bottom: 0 !important;
+    }
+
+    .newsletter-input {
+        font-size: 9px;
+    }
+
+    .copyright-wrapped p {
+        font-size: 7px;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /* header */
+    .header-top img {
+        max-width: 85px;
+    }
+
+    .main-nav .nav-elements a {
+        margin: 0 12px;
+        font-size: 13px;
+    }
+
+    .dropbtn {
+        margin: 0px 12px;
+        font-size: 13px;
+    }
+
+    .hamburger {
+        margin-left: 10px;
+    }
+
+    /* hero */
+
+    .hero-header {
+        font-size: 40px;
+    }
+
+    .sub-header {
+        font-size: 15px;
+    }
+
+    .search-box {
+        font-size: 10px;
+    }
+
+    .search {
+        margin-left: 5px;
+    }
+
+    .search i {
+        font-size: 12px;
+    }
+
+    .search::after {
+        top: 168px;
+        right: 15px;
+        width: 34px;
+        height: 34px;
+    }
+
+    /* transparent req */
+    .tr-text-container {
+        padding: 2rem 3rem;
+    }
+
+    /* Experts */
+    .page-padding {
+        padding: 5rem;
+    }
+
+    .right {
+        margin-right: 20px !important;
+    }
+
+    .left {
+        margin-left: 20px !important;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+    .cards-link {
+        padding: 0 !important;
+    }
+
+    /* talent */
+
+    .talent-text-container {
+        padding: 1rem 2rem 1rem 3rem;
+    }
+
+    .talent-header {
+        font-size: 22px;
+    }
+    
+    /* best companies */
+
+    .b-img-left {
+        display: none;
+    }
+
+    .best-img img {
+        width: 84%;
+    }
+
+    .best-img {
+        right: 45px;
+        width: 100%;
+    }
+
+    .play-btn {
+        bottom: 9rem;
+        left: 26rem;
+    }
+
+    .best-text-container {
+        padding: 5rem 3rem 0 5rem;
+    }
+
+
+    .latest-page-padding {
+        padding: 0 4rem;
+    }    
+
+    .latest-roles-text {
+        font-size: 9px !important;
+    }
+
+    .latest-roles-wage {
+        font-size: 8px;
+    }
+
+    /* reviews */
+
+    .page-padding {
+        padding: 3rem;
+    }
+
+    /* footer */
+
+    .footer-cards-wrapped {
+        padding: 3rem;
+    }
+
+    .footer-social-icons i {
+        padding-left: 10px;
+    }
+
+    .footer-content-wrapped h4 {
+        font-size: 15px;
+        margin-bottom: 10px !important;
+    }
+
+    .mt-4 {
+        margin-top: 1rem !important;
+    }
+
+    .card-list a {
+        font-size: 8px;
+        padding: 5px 0;
+    }
+
+    .footer-content-wrapped p {
+        font-size: 8px;
+    }
+
+    .newsletter-input {
+        font-size: 7px;
+        padding: 6px 9px 2px 9px;
+    }
+
+    .send-newsletter {
+        font-size: 10px;
+        padding: 3px 5px 2px 6px;
+    }
+
+    .footer-cards-wrapped {
+        padding: 3rem 3rem 1rem 3rem;
+    }
+
+    .copyright-wrapped {
+        padding: 0 3rem;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    /* header */
+    .main-nav {
+        padding: 20px 10px 35px 10px;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+
+    .hero-header {
+        font-size: 25px;
+        margin-bottom: 0 !important;
+    }
+
+    .sub-header {
+        font-size: 11px;
+    }
+
+    .search-box {
+        font-size: 7px;
+        padding: 5px 10px;
+    }
+
+    .search i {
+        font-size: 10px;
+        padding: 7px 3px;
+    }
+
+    .search::after {
+        top: 115px;
+        right: 15px;
+        width: 28px;
+        height: 27px;
+    }
+
+    .start-search {
+        bottom: 6rem;
+    }
+
+    /* Transparent Rec */
+
+    .tr-text-container {
+        padding: 1.5rem 1rem;
+    }
+
+    /* Experts */
+
+    .left {
+        margin-left: 10px !important;
+        margin-right: 15px !important;
+        max-width: 45%;
+    }
+
+    .right {
+        margin-left: 15px !important;
+        margin-right: 10px !important;
+        max-width: 45%;
+    }
+
+    .card-deck {
+        justify-content: space-between;
+    }
+
+    .cards-link p {
+        font-size: 9px;
+    }
+
+    .circle-outline {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cards-link i {
+        font-size: 11px;
+    }
+
+    .card-list a {
+        padding: 6px 0 0 0;
+    }
+
+    /* top talent */
+    .flex {
+        padding-right: 0 !important;
+    }
+
+    .talent-text-container {
+        padding: 1rem 0 0rem 2rem;
+    }
+
+    .talent-header {
+        font-size: 20px;
+    }
+
+    /* best companies */
+
+    .best-companies {
+        padding: 5rem 0 2rem 0;
+    }
+
+    .best-companies .row {
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .play-btn {
+        bottom: 7rem;
+        left: 19rem;
+    }
+
+    .best-text-container {
+        padding: 3rem 3rem;
+    }
+
+    /* latest roles */
+
+    .latest-page-padding {
+        padding: 0px 3rem;
+    }
+
+
+
+}
+
+@media (max-width: 575.98px) {
+
+}
+
+
+
+
+
+
+
+
