@@ -1329,19 +1329,27 @@ footer {
     }
 
     .hamburger i {
-        padding: 7px 4px;
+        padding: 7px 3px;
         font-size: 14px;
     }
 
-    .circle-hover::after {
+    .circle-hover:after {
         right: 15px;
-        width: 32px;
+        width: 30px;
         height: 30px;
     }
 
+    .start-search-wrapped {
+        min-width: 75%;
+    }
+
+    .start-search {
+        left: -3rem;
+    }
+
     .start-search h6 {
-        font-size: 7px;
-        margin: 0 9px;
+        font-size: 8px;
+        margin: 0;
     }
 
     /* hero */
@@ -1441,7 +1449,7 @@ footer {
         padding-left: 3px;
     }
 
-    .circle-hover::after {
+    .best-right .circle-hover::after {
         right: 0px;
         width: 40px;
         height: 40px;
@@ -1559,7 +1567,7 @@ footer {
     }
 
     .conversation-text {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .contact-us-wrapped .pt-4 {
