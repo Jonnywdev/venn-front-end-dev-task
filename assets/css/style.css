@@ -25,6 +25,10 @@
     justify-content: start;
 }
 
+button:focus {
+    outline: none;
+}
+
 ul {
     list-style: none;
 }
@@ -184,6 +188,11 @@ hr {
     margin: 0 15px;
     font-size: 15px;
     color: #03363D;
+    transition: all .5s;
+}
+
+.main-nav .nav-elements a:hover {
+    color: #fc7753;
 }
 
 .hamburger {
@@ -204,6 +213,7 @@ hr {
     color: #293135;
     border: none;
     margin: 0 15px;
+    transition: all .5s;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -1639,13 +1649,3 @@ footer {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
